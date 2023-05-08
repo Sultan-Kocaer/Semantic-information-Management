@@ -1,1 +1,168 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:e3512130-48ca-4da4-92f5-4a0851c27a2b#"
+     xml:base="urn:webprotege:ontology:e3512130-48ca-4da4-92f5-4a0851c27a2b"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:e3512130-48ca-4da4-92f5-4a0851c27a2b"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R76iBSxbxcLnWJzGS4eQrXb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R76iBSxbxcLnWJzGS4eQrXb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDgfl1jI3CnOC0RuKPlKgtv"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J.R.R. Tolkien</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HarperCollins Publishers Ltd</dc:publisher>
+        <rdfs:label>The Hobbit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7V5zRjYUvGYcd899Og4Q2V -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7V5zRjYUvGYcd899Og4Q2V">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDgfl1jI3CnOC0RuKPlKgtv"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michael Crichton</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brilliance Audio</dc:publisher>
+        <rdfs:label>Jurassic Park</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9aIWNxIT0x1YvCKCFujfo3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9aIWNxIT0x1YvCKCFujfo3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDgfl1jI3CnOC0RuKPlKgtv"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miguel De Cervantes</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penguin Classics</dc:publisher>
+        <rdfs:label>Don Quixote</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBDOH9LpDApmnE0FBymrNcy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBDOH9LpDApmnE0FBymrNcy">
+        <rdfs:label>Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCSJqx4KarJR0qSpXhGjQ0L -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCSJqx4KarJR0qSpXhGjQ0L">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDgfl1jI3CnOC0RuKPlKgtv"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christopher Coates</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">298 pages</dc:description>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</dc:language>
+        <rdfs:label>The Ark</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDgfl1jI3CnOC0RuKPlKgtv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDgfl1jI3CnOC0RuKPlKgtv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RGZ5BFsQZupWilVwc5enPh"/>
+        <rdfs:label>Action and adventure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGZ5BFsQZupWilVwc5enPh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RGZ5BFsQZupWilVwc5enPh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBDOH9LpDApmnE0FBymrNcy"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiction Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RKIq6PCYymgN5bPdnYAOFG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RKIq6PCYymgN5bPdnYAOFG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDgfl1jI3CnOC0RuKPlKgtv"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robert Louis Stevenson</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benediction Classics</dc:publisher>
+        <rdfs:label>Treasure Island</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RV7tGub7cm0FmokrtXCs3U -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RV7tGub7cm0FmokrtXCs3U">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBDOH9LpDApmnE0FBymrNcy"/>
+        <rdfs:label>Nonfiction Books</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
 
